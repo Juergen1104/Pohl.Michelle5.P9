@@ -23,9 +23,9 @@ public class VierGewinntSpiel extends Spiel {
             spalte--;
 
             if (spalte >= 0 && spalte < brett.anzSpalten && brett.hinzufuegen(spieler, spalte, -1)) {
-                break;  // Beende die Schleife, wenn der Zug gültig ist und erfolgreich hinzugefügt wurde
+                break;  // gueltig
             } else {
-                System.out.println("Ungültige Spalte oder Spalte ist voll. Bitte erneut versuchen.");
+                System.out.println("Nochmal versuchen.");
             }
         }
     }
