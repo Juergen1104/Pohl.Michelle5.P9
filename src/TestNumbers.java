@@ -1,5 +1,4 @@
 // Michelle Pohl
-
 import java.util.Random;
 
 public class TestNumbers {
